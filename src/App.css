@@ -1,0 +1,57 @@
+.userCard{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.postCard{
+    margin: 20px 30px;
+    width: 30%;
+}
+
+.postcontent{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.motherpost
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.motheruser
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1175px;
+    margin-left: 85px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+}
+
+.link    
+{text-decoration: none;
+font-size: 30px;}
